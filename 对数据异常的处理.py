@@ -1,5 +1,5 @@
 guest_01 = input("请输入第一个数字：")
-error_number = ("您所输入的不是数字")
+error_number = "您所输入的不是数字"
 try:
     guest_01 = int(guest_01)
 except ValueError:
